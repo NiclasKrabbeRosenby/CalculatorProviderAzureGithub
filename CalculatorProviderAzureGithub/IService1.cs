@@ -19,6 +19,13 @@ namespace CalculatorProviderAzureGithub
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        double Add(double a, double b);
+
+        [OperationContract]
+        double Sub(double a, double b);
+
+
         // TODO: Add your service operations here
     }
 
